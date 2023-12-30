@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Mopups.Maui": {
+      "commandName": "Project",
+      "hotReloadEnabled": true
+    }
+  }
+}
