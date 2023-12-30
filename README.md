@@ -19,10 +19,11 @@ Mopups.Maui is a replacement for the "Rg.Plugins.Popups" plugin for Xamarin. Mop
 The "PreBaked" is a neat blend of Mopups.Maui and AsyncAwaitBestPractices plugins to bring you a quick way to add popups into your MAUIs App using familiar concepts 
 
 Platforms Supported (Current)
-- Android 
-- iOS
-- Windows
-- MacOS (Mac Catalyst) (This is a bit iffy..)
+- Net8.0
+- Net8.0-Android ^34.0
+- Net8.0-Ios ^17.0
+- Net8.0-Maccatalyst ^17.0
+- Net8.0-Windows ^10.0.19041
 
 
 ### Installation
@@ -81,7 +82,7 @@ await PreBakedMopups.Mauiervice.GetInstance().WrapReturnableFuncInLoader(LongRun
 
 ## That's it! for advanced usage read on
 
-In Version 1.2.0, Mopups.Maui has added some pre created pages that can provide users the ability to return data from popups. I have also added the ability to overload the look of these pages and create your own. 
+In Version 1.0.0, Mopups.Maui has added some pre created pages that can provide users the ability to return data from popups. I have also added the ability to overload the look of these pages and create your own. 
 
 I do wish it were simpler, however, with the limited time i have to work on this, it'll have to do. 
 
